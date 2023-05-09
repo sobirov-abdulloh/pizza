@@ -1,0 +1,204 @@
+.basket__Container {
+  width: 100%;
+  display: flex;
+  padding: 113px 0;
+
+  /* align-items: center; */
+  justify-content: center;
+}
+
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  margin-top: 50px;
+}
+.basket__Container .basket__Box h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.basket__Container .pizza__Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+  height: auto !important;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.basket__Container .pizza__Box .pizza__Img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basket__Container .pizza__Box img {
+  width: 120px;
+  height: 120px;
+  margin-right: 16px;
+}
+
+.basket__Container .pizza__Title h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #191919;
+  margin-bottom: 8px;
+}
+
+.basket__Container .pizza__Title p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}
+
+.basket__Container .pizza__Box .pizza__Count {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.basket__Container .pizza__Box .pizza__Count span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ff7010;
+}
+
+.basket__Container .pizza__Box .pizza__Count .pizza__Sum {
+  display: flex;
+  padding: 8px;
+  gap: 10px;
+  background: #ffeee2;
+  border-radius: 6px;
+}
+
+.basket__Container .pizza__Box .pizza__Count .pizza__Sum button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff7010;
+  border: none;
+  background: inherit;
+}
+
+.total__Price {
+  width: 850px;
+  height: auto !important;
+  background: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+.basket__Input {
+  width: 320px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  color: #a5a5a5;
+  font-size: 16px;
+  padding: 13px 16px;
+  /* outline: 2px solid #F0F0F0; */
+}
+
+.total__Price span {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ff7010;
+}
+
+.basket__Input_Box button {
+  width: 48px;
+  height: 48px;
+  background: #ff7010;
+  border-radius: 6px;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  .basket__Container {
+    width: 100%;
+    display: flex;
+    padding: 58px 20px;
+  }
+  .basket__Container .basket__Box h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .basket__Container .pizza__Box {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+
+  .basket__Container .pizza__Box img {
+    width: 84px;
+    height: 84px;
+    margin-right: 16px;
+  }
+  .basket__Container .pizza__Box .pizza__Img {
+    flex-direction: column;
+  }
+  .basket__Container .pizza__Title h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .basket__Container .pizza__Title p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .basket__Container .pizza__Box .pizza__Count .pizza__Sum {
+    display: flex;
+    padding: 7px 8px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 92px;
+    height: 32px;
+  }
+  .basket__Container .pizza__Box .pizza__Count .pizza__Sum button {
+    font-weight: 600;
+    font-size: 14px;
+
+    border: none;
+    background: inherit;
+  }
+  .basket__Container .pizza__Box .pizza__Count span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .total__Price {
+    width: 350px;
+    margin-top: 41px;
+    height: auto !important;
+    display: flex;
+    background: none;
+    border-bottom: 1px solid rgb(222, 219, 219);
+    border-top: 1px solid rgb(222, 219, 219);
+    border-radius: 0;
+    flex-direction: column;
+  }
+  .basket__Input_Box {
+    display: flex;
+  }
+  .basket__Input {
+    width: 100%;
+  }
+  .total__Price span {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+}

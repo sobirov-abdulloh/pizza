@@ -1,0 +1,217 @@
+.Nastroyka {
+  width: 850px;
+  padding: 24px 32px;
+  border-radius: 12px;
+  margin: auto;
+  background-color: white;
+}
+.accounqt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Edit {
+  display: flex;
+  align-items: center;
+}
+.Edit button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+}
+.Edit img {
+  margin-right: 15px;
+}
+.Edit p {
+  font-size: 16px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ff7010;
+}
+.Edit1 {
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.Edit1 button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+}
+.Edit1 img {
+  margin-right: 15px;
+}
+.Edit1 p {
+  font-size: 16px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ff7010;
+}
+.Ruyhat {
+  display: flex;
+  margin-top: 16px;
+}
+
+.Ruyhat .name,
+.telefon,
+.Pochta,
+.data {
+  margin-right: 32px;
+}
+.Ruyhat .name p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+}
+.Ruyhat .telefon p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+}
+.Ruyhat .data p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+}
+.Ruyhat .Pochta p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+}
+.Ruyhat .name h2 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.Ruyhat .telefon h2 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.Ruyhat .Pochta h2 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.Ruyhat .data h2 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.accounqt > h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+
+.Ruyhat2 > h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.Ruyhat2 button {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ff7010;
+  width: 235px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+.Ruyhat2 input {
+  width: 235px;
+
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  padding: 13px 16px;
+}
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex2 .name2,
+.telefon2,
+.Pochta2,
+.data2 {
+  margin-right: 24px;
+}
+.flex2 p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+  margin-top: 16px;
+}
+@media screen and (max-width: 600px) {
+  .accounqt {
+    display: flex;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+  .Ruyhat {
+    display: flex;
+    flex-direction: column;
+  }
+  .Nastroyka {
+    width: 100% !important;
+  }
+  .Edit {
+    display: none;
+  }
+  .Edit1 {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid gray;
+  }
+  .Ruyhat .name,
+  .telefon,
+  .Pochta,
+  .data {
+    margin-top: 10px;
+  }
+}

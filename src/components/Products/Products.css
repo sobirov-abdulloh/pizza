@@ -1,0 +1,100 @@
+.Product {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  width: 100%;
+}
+.Product > img {
+  width: 100%;
+}
+.Product .text {
+  padding: 16px 20px;
+  position: relative;
+}
+
+.Product .text h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #191919;
+}
+
+.Product .text p {
+  font-size: 16px;
+  /* line-height: 22px; */
+  margin: 15px 0;
+}
+
+.Product .send1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send1 button {
+  padding: 8px 10px;
+  gap: 10px;
+  background: #ff7010;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.send1 p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ff7010;
+}
+@media screen and (max-width: 600px) {
+  .Product {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .Product img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    margin-left: 12px;
+  }
+  .Product .send1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    /* justify-content:  !important ; */
+  }
+  .send1 p {
+    margin-left: 15px;
+  }
+  .send1 button {
+    padding: 3px !important;
+    gap: 10px;
+    background: #ff7010;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .text p {
+    margin: 4px 0 !important;
+  }
+  .send1 p {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 32px;
+    background: #ffeee2;
+    border-radius: 6px;
+
+    color: #ff7010;
+  }
+}

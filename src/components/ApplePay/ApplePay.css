@@ -1,0 +1,188 @@
+.ApplePayflex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.line {
+  border-bottom: 1px solid gray;
+}
+.ApplePay {
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: white;
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+.Appleflex {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.Azakas1 h2 {
+  display: flex;
+  align-items: center;
+}
+.Azakas1 h2 p {
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}
+.Azakas1 h2 h2 {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 20px;
+  color: #a5a5a5;
+}
+.ApplePayflex img {
+  margin-right: 16px;
+}
+.Azakas2 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Azakas3 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Azakas4 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Azakas2 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}
+.Azakas3 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}
+.Azakas4 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}
+.AOfis {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.EditK h1 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7010;
+}
+.EditKarta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.pizzae {
+  display: flex;
+  align-items: center;
+}
+.pizzae img {
+  margin-right: 16px;
+}
+.pizzae p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.EditKarta span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ff7010;
+}
+.EditKarta h2 {
+  width: 99px;
+  height: 40px;
+  background: #ffeee2;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+
+  color: #ff7010;
+}
+.button button {
+  background-color: transparent;
+  border: none;
+}
+.Line {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.ApplePayflex {
+  border-left: 5px solid #24d17e;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.ApplePayflex p {
+  color: grey;
+}
+.ad {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .Appleflex {
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, auto);
+  }
+  .ApplePayflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .Appleflex h1 {
+    margin-top: 20px;
+  }
+  .AOfis {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Line {
+    width: 100%;
+  }
+  .Naxtflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    display: none;
+  }
+
+  .ad {
+    display: block;
+  }
+  .AOfis h1 {
+    display: none;
+  }
+}

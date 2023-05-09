@@ -1,0 +1,157 @@
+.Dialog_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  padding: 35px 20px 20px 0;
+}
+.Dialog_left .Cook_Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Dialog_left img {
+  width: 450px;
+  height: 450px;
+}
+.Dialog_left h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 18px;
+  width: 82px;
+  height: 40px;
+  color: #ffffff;
+  background-color: red;
+}
+
+.cook_top_left {
+  display: flex;
+  align-items: center;
+}
+.cook_top_left h2 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+}
+.cook_top_left img {
+  margin-right: 11px;
+}
+.cook_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cook_top,
+.Account,
+.pezza_card > h1 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.pezza_card > h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 14px;
+  color: #191919;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin-top: 16px;
+}
+
+.Account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.Account h1 {
+  display: flex;
+  align-items: center;
+}
+.Account h1 span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ff7010;
+}
+.Account h1 p {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #a5a5a5;
+  margin-left: 12px;
+}
+.Account button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13px 40px;
+  gap: 10px;
+  width: 155px;
+  height: 48px;
+  background: #ff7010;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 6px;
+  border: none;
+}
+@media screen and (max-width: 600px) {
+  .Dialog_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Cook_Img img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .card {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    padding: 12px 12px;
+  }
+  .card::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card::-webkit-scrollbar {
+    height: 0;
+    background-color: rgb(254, 254, 254); /* or add it to the track */
+  }
+
+  /* Add a thumb */
+  .card::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  .Account h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .Account button {
+    font-family: "Inter";
+
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

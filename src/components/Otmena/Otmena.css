@@ -1,0 +1,180 @@
+.Otmenaflex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.line {
+  border-bottom: 1px solid gray;
+}
+.Otmena {
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: white;
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+.ZakasOtmenaflex {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.Otmenazakas1 h2 {
+  display: flex;
+  align-items: center;
+}
+.Otmenazakas1 h2 p {
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  color: gray;
+}
+.Otmenazakas1 h2 h2 {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 20px;
+  color: #a5a5a5;
+}
+.Otmenaflex img {
+  margin-right: 16px;
+}
+.Otmenazakas1 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Otmenazakas2 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Otmenazakas3 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Otmenazakas4 p {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.Otmenazakas2 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: gray;
+}
+.Otmenazakas3 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+.Otmenazakas4 h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: gray;
+}
+.OfisOtmena {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.EditK h1 {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7010;
+}
+.EditKarta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.pizzae {
+  display: flex;
+  align-items: center;
+}
+.pizzae img {
+  margin-right: 16px;
+}
+.pizzae p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.EditKarta span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ff7010;
+}
+.EditKarta h2 {
+  width: 99px;
+  height: 40px;
+  background: #ffeee2;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+
+  color: #ff7010;
+}
+.button button {
+  border: none;
+  background-color: transparent;
+}
+.Line {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.Otmenaflex {
+  border-left: 5px solid #a5a5a5;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.Otmenaflex p {
+  color: gray;
+}
+@media screen and (max-width: 600px) {
+  .ZakasOtmenaflex {
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, auto);
+  }
+  .OfisOtmena {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .line {
+    width: 100%;
+  }
+  .Otmenaflex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    display: none;
+  }
+  .OfisOtmena h1 {
+    display: none;
+  }
+}

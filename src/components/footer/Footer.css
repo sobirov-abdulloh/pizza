@@ -1,0 +1,96 @@
+.footer {
+  padding: 32px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  margin-top: 60px;
+}
+
+.foot2,
+.foot3 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.foot3 > p,
+.foot2 > p,
+.foot4 > p {
+  font-size: 16px;
+  height: 20px;
+  margin-top: 12px;
+}
+
+.foot3 > h1,
+.foot2 > h1,
+.foot4 > h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.f1 > img {
+  margin-right: 12px;
+}
+
+.f2 > p {
+  margin-left: 12px;
+}
+
+
+
+.foot1 {
+  display: flex;
+  align-items: center;
+}
+
+.foot1 > img {
+  margin-right: 15px;
+  width: 40px;
+}
+
+
+
+.foot4 > .f1,
+.f2 {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  
+}
+.section .f3{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.section .f4{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .foot2,.foot3,.foot4 {
+    margin-top: 24px;
+  }
+ .f1 ,.f2,.section  {
+  margin-top: 19px;
+}
+
+}

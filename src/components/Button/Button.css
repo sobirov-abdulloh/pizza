@@ -1,0 +1,66 @@
+.above_button {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  margin-top: 24px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.above_button button {
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 48px;
+  border: none;
+  background-color: white;
+}
+
+.under_button {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  margin-top: 16px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.under_button button {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 33.4%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+}
+.active {
+  background-color: #ff7010 !important;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+.active1 {
+  background-color: #ff7010 !important;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+.sushi2 {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin: 20px 0;
+  padding: 4px;
+  border: 1px solid gray;
+  background-color: transparent;
+  font-size: 33px;
+}

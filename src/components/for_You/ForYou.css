@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+.container__You {
+    width: 850px;
+    margin: 20px auto;
+}
+
+.container__You .box__You {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container__You .input__Info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+.box__You h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 42px;
+} */
+
+
+
+.input__Info .input label {
+    font-size: 14px;
+    color: #A5A5A5;
+}
+.input__Info{
+    width: 100%;
+}
+.input__Info .input{
+    display: flex;
+    flex-direction: column;
+}
+.input__Info{
+    display: flex;
+    justify-content: space-between;
+}
+.input__Info .input input {
+    width: 270px;
+    padding: 13px 16px;
+    color: #A5A5A5;
+    font-size: 16px;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+}
+
+.for__Line {
+    height: 1px;
+    background: #F0F0F0;
+    margin: 20px 0;
+}
+
+.delivery .deliver__Button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivery h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #191919;
+}
+
+.delivery label {
+    font-size: 14px;
+    color: #A5A5A5;
+    margin-bottom: 8px;
+}
+
+.delivery .button__Del button {
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #191919;
+    width: 175px;
+    padding: 13px 0;
+    border: none;
+}
+.delivery .button__Del button:focus {
+    background: #FF7010;
+    color: #fff;
+}
+
+
+
+.delivery .street input {
+    width: 100%;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    color: #A5A5A5;
+    font-size: 16px;
+    padding: 13px 16px;
+}
+
+.starts{
+    display: grid;
+    grid-template-columns: repeat(5,19%);
+    grid-gap: 10px;
+}
+.street{
+grid-column: span 5;
+}
+
+ .address__Box label {
+    margin: 6px 0 !important;
+}
+.delivery  .address__Box input {
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    color: #A5A5A5;
+    font-size: 16px;
+    padding: 13px 16px;
+}
+
+.delivery .time__Deliver {
+    margin-top: 16px;
+}
+.time__Deliver label{
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #A5A5A5;
+}
+.radio_Box{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.radio_Box .radio_Input{
+margin-right: 24px;
+display: flex;
+align-items: center;
+}
+.radio_Box .radio_Input input{
+    margin-right: 8px;
+}
+.delivery .time__Deliver .radio_Box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.delivery .time__Deliver .radio_Box .radio_Input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.delivery .time__Deliver .radio_Box .radio_Input input {
+    color: #FF7010;
+}
+
+.pay__Container h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.pay__Container .radio_Box {
+    display: flex;
+    gap: 24px;
+}
+.pay__Container .radio_Box .radio_Input, .surrender .radio_Boxes .radio_Input {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.surrender h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 16px;
+}
+.surrender .radio_Boxes {
+    display: flex;
+    gap: 24px;
+}
+.surrender .radio_Boxes .count {
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    width: 160px;
+    padding: 13px 16px;
+}
+
+.comments h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #191919;
+    margin-bottom: 16px;
+}
+.comments  {
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.total__Button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.total__Button p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF7010;
+}
+.total__Button button {
+    background: #FF7010;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 24px;
+    border: none;
+}
+.button__Del{
+    background-color: white;
+    border-radius: 6px;
+}
+.button__Del button{
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+border: none;
+padding: 10px;
+    background-color: white;
+}
+.address__Box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.time__Deliver{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+    
+    .input__Info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .input__Info .input input {
+        width: 100% !important;
+    }
+    .input__Info .input{
+        margin-top: 20px;
+    }
+    .comments{
+        width: 100% !important;
+    }
+    .container__You{
+        padding: 10px 29px;
+        width: 100% !important;
+    }
+    .deliver__Button{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .deliver__Button h3{
+        margin-bottom: 10px;
+    }
+    .radio_Box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .surrender .radio_Boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .time__Deliver .radio_Input{
+        margin-bottom: 20px;
+    } 
+ .street{
+     display: grid;
+ }
+    .starts{
+        display: grid ;
+        grid-template-columns:repeat(2,48.5%);
+    }
+    .street{
+        grid-column: span 2;
+    }
+    .button__Del{
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

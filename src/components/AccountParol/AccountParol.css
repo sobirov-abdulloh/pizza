@@ -1,0 +1,156 @@
+.Parol12 {
+  margin: 10px auto;
+  background-color: white;
+  padding: 24px 32px;
+  width: 850px;
+  border-radius: 12px;
+}
+
+.Parol1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ParolEdit {
+  display: flex;
+}
+
+.ParolEdit img {
+  margin-right: 15px;
+}
+
+.ParolEdit p {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff7010;
+}
+
+.Parol12 h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+
+.Parol1 h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+
+.Parol1 button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+}
+
+.Padpiska {
+  padding: 24px 32px;
+  width: 850px;
+  border-radius: 12px;
+  background-color: white;
+  margin: 20px auto;
+}
+
+.Padpiska h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+
+.inp {
+  display: flex;
+  margin-top: 16px;
+}
+
+.inp input {
+  margin-right: 10px;
+}
+
+.ParolInp {
+  display: flex;
+}
+
+.ParolInp p {
+  font-family: "Inter";
+
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #a5a5a5;
+  margin-top: 16px;
+}
+
+.ParolInp .input_parol {
+  margin-right: 24px;
+}
+
+.inp_eye {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  margin-top: 5px;
+  border-radius: 6px;
+  padding: 10px 16px;
+  display: flex;
+}
+.inp_eye input {
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #a5a5a5;
+  width: 100%;
+  outline: none;
+}
+
+.text_err {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Parol2 button {
+  width: 235px;
+  padding: 13px 24px;
+  background: #ff7010;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .Parol12 {
+    width: 100% !important;
+  }
+
+  .Parol1,
+  .ParolInp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Padpiska {
+    width: 100%;
+  }
+
+  .ParolEdit {
+    margin-top: 10px;
+  }
+}

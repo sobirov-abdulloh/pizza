@@ -1,0 +1,74 @@
+.M .btn{
+    display: none;
+}
+
+@media  screen and (max-width: 600px) {
+   .M .btn{
+       display: block;
+   }
+
+   .M{
+       display: block;
+    }
+    .DC a {
+        display: none;
+    }
+    .DC .c p{
+margin-top: 20px;
+    }
+   .account section{
+       display: flex;
+       align-items: center;
+       margin-top: 14px;
+       margin-bottom: 14px;
+   }
+   .account  {
+       border-top: 1px solid gray;
+       border-bottom: 1px solid gray;
+   }
+   .DB ,.foot5{
+       border-top: 1px solid gray;
+   }
+    .DC {
+        width:390px;
+        display: block;
+    }
+   .DB section {
+       margin-top: 12px;
+       margin-bottom: 12px;
+   }
+    .DB{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .DB .link1{
+        display: flex;
+        align-items: center;
+    }
+    .DB img{
+        margin-right: 12px;
+    }
+    .DB a{
+        text-decoration: none;
+    }
+    .account ,.DB,.c,.foot5 {
+        padding: 2px 23px;
+    }
+    .section1{
+        display: flex;
+        align-items: center;
+        margin-top: 19px;
+    }
+    .section1 .f3{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: 24px;
+}
+.section1 .f4{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+}

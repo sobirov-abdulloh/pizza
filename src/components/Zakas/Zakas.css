@@ -1,0 +1,9 @@
+.History{
+    width: 850px;
+    margin: 24px auto;
+}
+@media screen and (max-width:600px){
+    .History{
+        width: 100% !important;
+    }
+}

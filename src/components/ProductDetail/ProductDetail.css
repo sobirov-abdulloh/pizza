@@ -1,0 +1,17 @@
+.Dialog{
+width: 1070px;
+height: 640px;
+position: relative;
+overflow-x: hidden;
+}
+
+
+.close-btn{
+    background-color: blue;
+
+}
+@media screen  and (max-width:600px){
+    .Dialog{
+        width: 100%;
+    }
+}

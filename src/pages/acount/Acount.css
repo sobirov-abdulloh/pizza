@@ -1,0 +1,52 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  width: 850px;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.tabs h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #191919;
+}
+.tabs .buttons {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.Tabs {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .tabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .tabs h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+  .tabs .btn1 {
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .tabs .btn2 {
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

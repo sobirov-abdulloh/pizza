@@ -1,0 +1,26 @@
+.ButtonNext{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ButtonNext button{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+}
+@media screen and (max-width:600px) {
+    .ButtonNext button{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+}
+}

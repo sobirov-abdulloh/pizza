@@ -1,0 +1,41 @@
+.face .img{
+    width: 105px;
+    height: 105px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.face{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.face h4{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+
+    .face .img{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.face{
+    margin-right: 10px;
+}
+.face h4{
+font-family: 'Inter';
+font-size: 12px;
+line-height: 16px;
+}
+}

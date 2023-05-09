@@ -1,0 +1,127 @@
+.home {
+  padding: 0 6%;
+}
+
+.Products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.home h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  color: #191919;
+  margin: 30px 0;
+}
+
+.stoks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.adres {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adres input {
+  height: 48px;
+  width: 60%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.adres p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #191919;
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feltermui2 {
+  display: none;
+}
+
+.btnhome2 {
+  display: none;
+}
+
+.btnhome1 {
+  width: 150px;
+  height: 48px;
+  background: #FF7010;
+  border-radius: 6px;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Products {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 15px;
+  }
+
+  .stoks {
+    display: flex !important;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .stoks::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stoks::-webkit-scrollbar {
+    height: 0;
+    background-color: rgb(254, 254, 254);
+    /* or add it to the track */
+  }
+
+  /* Add a thumb */
+  .stoks::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+
+  .feltermui2 {
+    display: block;
+  }
+
+  .feltermui1 {
+    display: none;
+  }
+
+  .adres {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adres input {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .btnhome1 {
+    display: none;
+  }
+}
